@@ -1,3 +1,7 @@
+#BRANCHING STRAT TO AVOID MERGE CONFLICTS
+
+-Put anything you find here.....
+
 # Coursework Brief: House Price Prediction Using Neural Networks
 
 ## Coursework Type
