@@ -12,6 +12,8 @@ Dave, Compare models
 
 Zak, Compare models 
 
+Both compare with 2 different conclusions then a joint conclusion 
+
 Split report - one part each
 
 Conclusion - group consesus 
