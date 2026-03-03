@@ -1,3 +1,20 @@
+#ROLES
+
+Will, neural network 1, neural network 2 
+
+Richard,
+
+Kevin,
+
+Dave, Compare models
+
+Zak, Compare models 
+
+Split report - one part each
+
+Conclusion - group consesus 
+
+
 # BRANCHING STRAT TO AVOID MERGE CONFLICTS
 
 -Put anything you find here.....
