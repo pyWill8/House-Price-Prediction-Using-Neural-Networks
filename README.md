@@ -16,7 +16,7 @@ Split report - one part each
 
 Conclusion - group consesus 
 
-# BRANCHING STRAT TO AVOID MERGE CONFLICTS
+# Branching strategy
 
 - Mostly working on seperate files, so keep as simple as possible to avoid confusion
 
