@@ -1,12 +1,12 @@
 # ROLES
 
-Will, neural network 1, neural network 2 
+Will - Model 1
 
-Ryan, Data cleaning
+Ryan - Data cleaning, Feature Construction
 
-Richard,
+Richard - Model 2
 
-Kevin,
+Kevin - Graph Visualisations
 
 Dave, Compare models
 
