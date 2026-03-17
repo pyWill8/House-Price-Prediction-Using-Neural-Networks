@@ -8,20 +8,17 @@ Richard - Model 2
 
 Kevin - Graph Visualisations
 
-Dave, Compare models
+Dave - Compare models
 
-Zak, Compare models 
-
-Both compare with 2 different conclusions then a joint conclusion 
+Zak - Compare models 
 
 Split report - one part each
 
 Conclusion - group consesus 
 
-
 # BRANCHING STRAT TO AVOID MERGE CONFLICTS
 
--Put anything you find here.....
+- Mostly working on seperate files, so keep as simple as possible to avoid confusion
 
 # Coursework Brief: House Price Prediction Using Neural Networks
 
