@@ -7,10 +7,16 @@ from sklearn.datasets import fetch_california_housing
 def df_basic_cleaning_and_split(data = fetch_california_housing(as_frame=True).frame,
     target_col="MedHouseVal",
     test_size=0.3,
-    random_state=42, 
-    include_split = True):
+    random_state=42,
+    additional_features = "clusters_feature.csv",
+    include_split = True,
+    include_additional_features = True):
     
     df = data.copy() 
+    # Adding additional features
+    if include_additional_features == True:
+        additional_features_df = pd.read_csv(additional_features)
+        df = pd.concat([df, additional_features_df], axis=1)
 
     # Basic cleaning
     df = df.drop_duplicates()
