@@ -17,7 +17,7 @@ def drelu(a):
 #  
 def mse_loss(y_pred, y_true, n):
     # Root mean squared error (scalar)
-    return 0.5*np.mean((y_pred - y_true)**2)
+    return np.mean((y_pred - y_true)**2)
 
 # Used for setting the random seed for reproducibility
 def set_seed(seed=0):
@@ -40,7 +40,7 @@ def backprop(X, y, W1, b1, w2, b2):
     y_hat, cache = forward(X, W1, b1, w2, b2)
     a1 = cache["a1"] # Hidden layer 
 
-    dL_dyhat = (y_hat - y) / N
+    dL_dyhat = 2 * (y_hat - y) / N
     dL_dz2 = dL_dyhat  # ReLu not used on output (CHECK correct)
 
     dw2 = a1.T @ dL_dz2
